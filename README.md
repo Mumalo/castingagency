@@ -118,4 +118,15 @@ To start and run the local development server,
    These tokens do expire so to make sure tests aree not failing beause of this,
    follow the steps to get tokens above and update EXECUTIVE_PRODUCER_TOKEN in the tests.py
    
+   
+## Testing the live app
+   1. production url 
+    ```http://localhost:5000/authorization/url
+    ```
+   2. Test instructions
+      Test your endpoints with [Postman](https://getpostman.com). 
+      - get an authorization url **http://localhost:5000/authorization/url**
+      - login with one of the users specified in **2. Get token**
+      - Import the postman collection `./starter/casting_gency_postman_collection.json`
+      - use the token above to test the endpoints (take note of user permissions as listed above)
      
