@@ -4,7 +4,6 @@ from jose import jwt
 import requests
 import sys
 import os
-print(os.environ)
 AUTH0_DOMAIN = os.environ["AUTH0_DOMAIN"]
 API_AUDIENCE = os.environ["API_AUDIENCE"]
 AUTH0_CLIENT_SECRET = os.environ["AUTH0_CLIENT_SECRET"]
