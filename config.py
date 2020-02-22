@@ -10,6 +10,6 @@ DEBUG = True
 
 # TODO IMPLEMENT DATABASE URL
 project_dir = os.path.dirname(os.path.abspath(__file__))
-SQLALCHEMY_DATABASE_URI = 'postgresql://mac@localhost:5432/movies'
-SECRET_KEY = 'kjdkjf4904i40jkejfkjdfdl'
+SQLALCHEMY_DATABASE_URI = os.environ["DATABASE_URL"]
+SECRET_KEY = os.environ["SECRET_KEY"]
 SQLALCHEMY_TRACK_MODIFICATIONS = True
