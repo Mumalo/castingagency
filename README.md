@@ -125,7 +125,7 @@ To start and run the local development server,
     ```
    2. Test instructions
       Test your endpoints with [Postman](https://getpostman.com). 
-      - get an authorization url **http://localhost:5000/authorization/url**
+      - get an authorization url **https://udacity-movies-app-fsnd.herokuapp.com/**
       - login with one of the users specified in **2. Get token**
       - Import the postman collection `./starter/casting_gency_postman_collection.json`
       - use the token above to test the endpoints (take note of user permissions as listed above)
