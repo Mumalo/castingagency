@@ -2,7 +2,7 @@ Casting Agency
 -----
 
 ### Introduction
-The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies
+The Casting Agency models a company that is responsible for creating movies, managing and assigning actors to those movies
 
 ### Overview
 
