@@ -94,35 +94,25 @@ To start and run the local development server,
    To start making API calls with sample tokens
 
 1. Get authorization url
-  ```http://localhost:5000/authorization/url
-  ```
+  ```http://localhost:5000/authorization/url```  
   Paste the url in the browser and follow the instructions below
-2. Get token 
-    For testing sake, I created three test users with the following info
-    Casting Assistant
-      * username casting-assistant@gmail.com
-      * password New_movie_user_2019
-    Casting Director
-      * username casting-director@gmail.com
-      * password New_movie_user_2019
-    Executive Producer
-       * username casting-director@gmail.com
-       * password New_movie_user_2019
+2. Get token. For testing sake, I created three test users with the following info:
+    * Casting Assistant (username casting-assistant@gmail.com, password New_movie_user_2019)
+    * Casting Director (username casting-director@gmail.com, password New_movie_user_2019)
+    * Executive Producer (username casting-director@gmail.com,  password New_movie_user_2019)
 3. Get the token from the browser redirect after logging in with one of these users
    This depends on the action you want to perform
 4. Use postman or any package to make a request with bearer authorization header
 
 ## Running Tests
-   Tests currently use a sample Casting Director token that has all roles
-   although others are used to satisfy specific 401 test cases
-   These tokens do expire so to make sure tests aree not failing beause of this,
+   Tests currently use a sample Casting Director token that has all roles, although others are used to satisfy specific 401 test cases.
+   These tokens do expire so to make sure tests are not failing because of this,
    follow the steps to get tokens above and update EXECUTIVE_PRODUCER_TOKEN in the tests.py
    
    
 ## Testing the live app
-   1. production url 
-    ```https://udacity-movies-app-fsnd.herokuapp.com/
-    ```
+   1. production url   
+    ```https://udacity-movies-app-fsnd.herokuapp.com/```
    2. Test instructions
       Test your endpoints with [Postman](https://getpostman.com). 
       - get an authorization url **https://udacity-movies-app-fsnd.herokuapp.com/authorization/url**
