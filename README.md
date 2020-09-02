@@ -113,7 +113,7 @@ To start and run the local development server,
 ## Testing the live app
    1. production url   
     ```https://udacity-movies-app-fsnd.herokuapp.com/```
-   2. Test instructions
+   2. Test instructions:
       Test your endpoints with [Postman](https://getpostman.com). 
       - get an authorization url **https://udacity-movies-app-fsnd.herokuapp.com/authorization/url**
       - copy the url returned and paste in the browser
