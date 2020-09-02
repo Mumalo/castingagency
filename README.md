@@ -96,7 +96,7 @@ To start and run the local development server,
 1. Get authorization url
   ```http://localhost:5000/authorization/url
   ```
-  Paster the url in the browser and follow the instructions below
+  Paste the url in the browser and follow the instructions below
 2. Get token 
     For testing sake, I created three test users with the following info
     Casting Assistant
